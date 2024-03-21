@@ -1,0 +1,206 @@
+@media (max-width: 600px) {
+  
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 240px;
+    }
+
+    .top .opticons {
+        display: none;
+    }
+
+    .top .wallet {
+        display: none;
+    }
+
+    .top .menu {
+        display: block;
+        background-color: #16091B;
+        margin-right: 16px;
+        border: none;
+    }
+
+    .top .menu:active {
+        border: 1px solid blueviolet;
+    }
+
+    .body {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .body .left-side .body-title {
+        font-family: Oxanium;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 63px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 0 30px ;
+    }
+
+    .body .left-side .buttons {
+        width: 330px;
+        height: 54px;
+        padding-left: 53px;
+    }
+
+    .body .left-side .buttons .explore {
+        padding: 16px 32px;
+    }
+
+    .body .left-side .buttons .create {
+        padding: 16px 40px;
+    }
+
+    .body .left-side .result {
+        display: none;
+    }
+
+    .body .right-side {
+        top:100px;
+        background-image: url(./images/Blurr\ effect.png);
+    }
+
+    .body .right-side .hero {
+        width: 282px;
+        height: 378px;
+        padding-left: 43px;
+        padding-bottom: 40px;
+    } 
+
+    .body .right-side .down {
+        display: none;
+    }
+
+    .body .mobile-result {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 74px;
+        column-gap: 39px;
+        top: 700px;
+    }
+
+    .body .mobile-result .item {
+        color: red;
+    }
+
+    .body .mobile-result .item h1 {
+        color: #F5FBF2;
+    }
+
+    .body .mobile-result .item p {
+        color: #9B9E9A;
+    }
+
+
+    .supporters {
+        display: none;
+    }
+
+    .mobile-supporters {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        column-gap: 150px;
+        background-color: #16091B;
+        padding-bottom: 100px;
+        padding-left: 40px;
+        /*margin-top: 26px;*/
+        /*margin-left: 65px;*/
+    }
+
+    .mobile-supporters .coin {
+        width: 95px;
+        height: 21px;
+        margin-bottom: 46px;
+    }
+
+    .mobile-supporters .block {
+        width: 155px;
+        height: 12px;
+        margin-left: 52px;
+        margin-bottom: 46px;
+    }
+
+    .mobile-supporters .binance {
+        width: 120px;
+        height: 25px;
+    }
+
+    .mobile-supporters .bitmex {
+        width: 102.41px;
+        height: 18px;
+        margin-left: 70px;
+    }
+
+
+
+    .auctions{
+        /*display: block;*/
+        width: 375px;
+        height: 2122.34px;
+        background-color: #16091B;
+    }
+
+    .auctions .auctins-logo {
+        width: 254px;
+        height: 74px;
+        margin-left: 84px;
+        padding-left: 20px;
+        }
+
+    .live .slider{
+        display: none;
+        border:  1px solid red;
+    }
+
+    .auctions .art {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border:  1px solid gray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .learn{
+        display: none;
+    }
+    
+    .collections{
+        display: none;
+    }
+    
+    .explore{
+        display: none;
+    }
+    
+    .top-creators{
+        display: none;
+    }.drop{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}
